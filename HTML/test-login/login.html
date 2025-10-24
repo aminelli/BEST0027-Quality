@@ -2,6 +2,16 @@
 
     <head>
 
+        <script>
+
+            let btn = document.getElementById("btnLogin");
+            btn.addEventListener("click", function(e) {
+                document.open("login_success.html");
+                e.stopPropagation();
+            });
+
+        </script>
+
     </head>
 
     <body>
@@ -22,7 +32,7 @@
 
         <br><br>
 
-        <button id="btnLogin" onclick="document.open('login_success.html')">Login</button>
+        <button id="btnLogin">Login</button>
         
     </body>
 
