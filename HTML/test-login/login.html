@@ -4,11 +4,11 @@
 
         <script>
 
-            let btn = document.getElementById("btnLogin");
-            btn.addEventListener("click", function(e) {
+            
+            function openLoginSuccess(e) {
                 document.open("login_success.html");
                 e.stopPropagation();
-            });
+            };
 
         </script>
 
@@ -32,7 +32,7 @@
 
         <br><br>
 
-        <button id="btnLogin">Login</button>
+        <button id="btnLogin" onclick="openLoginSuccess">Login</button>
         
     </body>
 
