@@ -1,0 +1,16 @@
+<anagrafiche>
+	<anagrafica id="1">
+		<cognome>minelli</cognome>
+		<nome>antonio</nome>
+		<data_nascita>07/11/1974</data_nascita>
+		<citta_nascita>Baar</citta_nascita>
+		<nazione_nascita>Svizzera</nazione_nascita>
+	</anagrafica>
+	<anagrafica  id="2">
+		<cognome>armenise</cognome>
+		<nome>lorenzo</nome>
+		<data_nascita>02/01/1998</data_nascita>
+		<citta_nascita>Bari</citta_nascita>
+		<nazione_nascita>Italia</nazione_nascita>
+	</anagrafica>
+</anagrafiche>
