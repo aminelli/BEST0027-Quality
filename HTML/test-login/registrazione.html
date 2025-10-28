@@ -1,0 +1,71 @@
+<html>
+
+    <head>
+
+        <script>
+            function verificaPassword() { 
+                var password = document.getElementById("txtPassword").value; 
+                var confermaPassword = document.getElementById("txtConferma_Password").value; 
+                if (password !== confermaPassword) 
+                    { 
+                        alert("Le password non corrispondono!"); 
+                        return false; 
+                    } 
+                else window.location.href = "register_success.html"; 
+            }
+
+
+        </script>
+
+    </head>
+
+    <body>
+        
+        <h1>Welcome to the User Registration Page</h1>
+        <p>Please <a href="index.html">home</a> to continue.</p>
+        <p>Please <a href="about.html">about</a> to continue.</p>
+        <p>Please <a href="login.html">login</a> to continue.</p>
+        
+        <label for="txtName">Name</label>
+        <br>
+        <input id="txtName" type="text" style="width: 200px;">
+
+        <br><br>
+
+        <label for="txtCognome">Cognome</label>
+        <br>
+        <input id="txtCognome" type="text" style="width: 200px;">
+
+        <br><br>
+
+        <label for="txtData_Nascita">Data Nascita</label>
+        <br>
+        <input id="txtData_Nascita" type="date" style="width: 200px;">
+
+        <br><br>
+
+        <label for="txtEmail">Email</label>
+        <br>
+        <input id="txtEmail" type="email" style="width: 200px;">
+
+        <br><br>
+
+        <label for="txtPassword">Password</label>
+        <br>
+        <input id="txtPassword" type="password" style="width: 200px;">
+
+        <br><br>
+
+        <label for="txtConferma_Password">Conferma Password</label>
+        <br>
+        <input id="txtConferma_Password" type="password" style="width: 200px;">
+
+        <br><br>
+
+        <button  id="btnRegisterSuccess" onclick="verificaPassword()">Registered</button>
+
+
+        
+    </body>
+
+</html>
