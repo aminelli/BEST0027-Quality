@@ -6,7 +6,7 @@
 			"nome": "antonio",
 			"data_nascita": "07/11/1974",
 			"citta_nascita": "Baar",
-			"nazione_nascita": "Svizzera",
+			"nazione_nascita": "Svizzera"
 		},
 		{
 			"id": 2,
@@ -14,7 +14,7 @@
 			"nome": "lorenzo",
 			"data_nascita": "02/01/1998",
 			"citta_nascita": "Bari",
-			"nazione_nascita": "Italia",
+			"nazione_nascita": "Italia"
 		}
 	]	
 }
